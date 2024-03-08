@@ -99,10 +99,6 @@ a:visited {
     color:#3e3f3e;
 }
 
-.main-content-wrapper {
-    
-}
-
 header {
     display: flex;
     flex-direction:column;
@@ -111,17 +107,10 @@ header {
     width: 100%; 
 }
 
-nav-wrapper {
-
-}
-
 .logo, #top-nav, .button {
     font-weight: 500px;
 }
 
-.logo {
-
-}
 
 /* NAVIGATION */
 
@@ -454,7 +443,6 @@ input {
 @media (max-width: 320px) {
     ul li {
         display: block;
-        margin: ;
     }
 }
 
