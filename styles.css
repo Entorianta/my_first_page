@@ -181,6 +181,7 @@ h1 {
     align-items: center;
     margin: 50px 0 0 0;
     max-width: 1080px;
+    width: 100%;
 }
 
 .intro-wrapper p {
@@ -255,18 +256,6 @@ h1 {
     content: ""
 }
 
-@media (max-width: 950px) {
-    .title-wrapper h1 {
-        font-size: 45px;
-    }  
-}
-
-@media (max-width: 753px) {
-    .title-wrapper h1 {
-        font-size: 35px;
-    }  
-}
-
 /* END TITLE */
 
 /* MY WORKS */
@@ -284,7 +273,8 @@ h1 {
     justify-content: left;
     align-items: center;
     margin: 50px 0 0 0;
-    min-width: 1080px;
+    max-width: 1080px;
+    width: 100%;
 }
 
 .my-projects {
@@ -319,7 +309,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px 0 0 0;
+    margin: 20px 0 60px 0;
 }
 
 .work-process-text {
@@ -327,7 +317,8 @@ h1 {
     justify-content: left;
     align-items: center;
     margin: 10px 0 30px 0;
-    min-width: 1080px;
+    max-width: 1080px;
+    width: 100%;
 }
 
 .paragraph {
@@ -335,7 +326,8 @@ h1 {
     justify-content: left;
     align-items: center;
     margin: 0 0 0 0;
-    min-width: 1080px;
+    max-width: 1080px;
+    width: 100%;
 }
 
 h2 {
@@ -366,14 +358,16 @@ h2 {
     justify-content: left;
     align-items: center;
     margin: 10px 0 30px 0;
-    min-width: 1080px;
+    max-width: 1080px;
+    width: 100%;
 }
 
 .contact-types {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    min-width: 1082px;
+    max-width: 1080px;
+    width: 100%;
 }
 
 .get-in-touch {
@@ -436,7 +430,7 @@ input {
 
 /* MOBILE STYLES */
 
-@media (max-width: 1180px) {
+@media (max-width: 1279px) {
     .title-wrapper h1 {
         font-size: 65px;
     }  
@@ -463,3 +457,6 @@ input {
         margin: ;
     }
 }
+
+
+/* END MOBILE STYLES */
