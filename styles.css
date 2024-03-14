@@ -505,7 +505,7 @@ input {
 
     .my-works-text {
         margin: 10px 0 0 0;
-        max-width: 390px;
+        max-width: 320px;
         width: 100%;
     }
 
@@ -552,18 +552,18 @@ input {
 
     .work-process-text {
         margin: 10px 0 10px 0;
-        max-width: 390px;
+        max-width: 320px;
         width: 100%;
     }
 
     .work-process h2 {
-        font-size: 25px;
+        font-size: 30px;
         margin: 5px 0 0 0;
     }
     
     .text-right {
         position: static;
-        max-width: 390px;
+        max-width: 320px;
         width: 100%;
         margin: 0 0 20px 0;
     }
