@@ -439,7 +439,7 @@ input {
     } 
 }
 
-@media (max-width: 390px) {
+@media (max-device-width: 390px) {
     
     body {
         margin: 20px 20px 20px 20px;
@@ -587,7 +587,7 @@ input {
     }
 
     input {
-        width: 350px;
+        width: 320px;
         height: 50px;
         border-radius: 20px;
         margin: 10px 0 0 0;
@@ -596,7 +596,196 @@ input {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        max-width: 1080px;
+        max-width: 390px;
+        width: 100%;
+    }    
+
+    .social-media {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    .social-media img {
+        margin: 35px 10px 10px 10px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .get-in-touch {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #get-started {
+        margin: 10px 0 0 0;
+    }
+
+    .get-in-touch p {
+        text-align: start;
+    }
+}
+
+@media (max-width: 320px) {
+    
+    body {
+        margin: 20px 20px 20px 20px;
+    }
+
+    html {
+        font-size: 15px;
+    }
+    
+    .nav-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    ul {
+        padding-inline-start: 0px;
+        text-align: center;
+    }
+
+    ul li {
+        display: block;
+    }
+
+    header {
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 100%; 
+    }
+
+    .title-wrapper h1 {
+        font-size: 28px;
+        margin: 30px 0 0 0;
+    }
+
+    .title-wrapper img {
+        width: 100%;
+        max-width: 280px;
+        object-fit: cover;
+        height: 120px;
+        border-radius: 20px;
+        border: 1px;
+        margin: 20px 0 0 0;
+    }
+
+    .intro-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        width: 100%;
+    }
+    
+    .intro-wrapper p {
+        width: 100%;
+        margin: 0 0 25px 0;
+    }
+
+    .my-works-text {
+        margin: 10px 0 0 0;
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .my-works {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0 0 0;
+    }
+        
+    .project {
+        border: 1px solid #494A49;
+        border-radius: 20px;
+        width: 280px;
+        height: 300px;
+        margin: 30px 38px 30px 38px;
+    }
+    
+    .project img {
+        width: 280px;
+        height: 200px;
+        border-radius: 20px;
+    }
+
+    .project p {
+        margin: 10px 20px 10px 20px;
+    }
+
+    .my-projects {
+        display: flex;
+        flex-direction: column;
+        margin-inline: 20px;
+        justify-content: center;
+    }
+
+    .work-process {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0 10px 0;
+    }
+
+    .work-process-text {
+        margin: 10px 0 10px 0;
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .work-process h2 {
+        font-size: 25px;
+        margin: 5px 0 0 0;
+    }
+    
+    .text-right {
+        position: static;
+        max-width: 320px;
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5px 0 50px 0;
+    }
+
+    .contact h2 {
+        font-size: 25px;
+        margin: 5px 0 0 0;
+        text-align: center;
+    }
+    
+    .contact-types p {
+        font-size: 13px;
+    }
+
+    input {
+        width: 280px;
+        height: 50px;
+        border-radius: 20px;
+        margin: 10px 0 0 0;
+    }
+    .contact-types {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 320px;
         width: 100%;
     }    
 
