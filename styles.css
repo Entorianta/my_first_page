@@ -439,7 +439,7 @@ input {
     } 
 }
 
-@media (max-device-width: 340px) {
+@media (max-device-width: 390px) {
     
     body {
         margin: 20px 20px 20px 20px;
@@ -505,11 +505,7 @@ input {
 
     .my-works-text {
         margin: 10px 0 0 0;
-<<<<<<< HEAD
-        max-width: 340px;
-=======
-        max-width: 320px;
->>>>>>> fb290410bf82f4db287127f51db7db7c586ad5f9
+        max-width: 390px;
         width: 100%;
     }
 
@@ -556,11 +552,7 @@ input {
 
     .work-process-text {
         margin: 10px 0 10px 0;
-<<<<<<< HEAD
-        max-width: 340px;
-=======
-        max-width: 320px;
->>>>>>> fb290410bf82f4db287127f51db7db7c586ad5f9
+        max-width: 390px;
         width: 100%;
     }
 
@@ -571,11 +563,7 @@ input {
     
     .text-right {
         position: static;
-<<<<<<< HEAD
-        max-width: 340px;
-=======
-        max-width: 320px;
->>>>>>> fb290410bf82f4db287127f51db7db7c586ad5f9
+        max-width: 390px;
         width: 100%;
         margin: 0 0 20px 0;
     }
@@ -609,7 +597,7 @@ input {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        max-width: 340px;
+        max-width: 390px;
         width: 100%;
     }    
 
