@@ -439,7 +439,7 @@ input {
     } 
 }
 
-@media (max-device-width: 390px) {
+@media (max-device-width: 340px) {
     
     body {
         margin: 20px 20px 20px 20px;
@@ -505,7 +505,7 @@ input {
 
     .my-works-text {
         margin: 10px 0 0 0;
-        max-width: 390px;
+        max-width: 340px;
         width: 100%;
     }
 
@@ -552,7 +552,7 @@ input {
 
     .work-process-text {
         margin: 10px 0 10px 0;
-        max-width: 390px;
+        max-width: 340px;
         width: 100%;
     }
 
@@ -563,7 +563,7 @@ input {
     
     .text-right {
         position: static;
-        max-width: 390px;
+        max-width: 340px;
         width: 100%;
         margin: 0 0 20px 0;
     }
@@ -597,7 +597,7 @@ input {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        max-width: 390px;
+        max-width: 340px;
         width: 100%;
     }    
 
