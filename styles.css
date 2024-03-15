@@ -505,7 +505,11 @@ input {
 
     .my-works-text {
         margin: 10px 0 0 0;
+<<<<<<< HEAD
         max-width: 340px;
+=======
+        max-width: 320px;
+>>>>>>> fb290410bf82f4db287127f51db7db7c586ad5f9
         width: 100%;
     }
 
@@ -552,18 +556,26 @@ input {
 
     .work-process-text {
         margin: 10px 0 10px 0;
+<<<<<<< HEAD
         max-width: 340px;
+=======
+        max-width: 320px;
+>>>>>>> fb290410bf82f4db287127f51db7db7c586ad5f9
         width: 100%;
     }
 
     .work-process h2 {
-        font-size: 25px;
+        font-size: 30px;
         margin: 5px 0 0 0;
     }
     
     .text-right {
         position: static;
+<<<<<<< HEAD
         max-width: 340px;
+=======
+        max-width: 320px;
+>>>>>>> fb290410bf82f4db287127f51db7db7c586ad5f9
         width: 100%;
         margin: 0 0 20px 0;
     }
