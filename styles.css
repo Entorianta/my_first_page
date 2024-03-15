@@ -439,7 +439,7 @@ input {
     } 
 }
 
-@media (max-device-width: 393px) {
+@media (max-width: 393px) {
     
     body {
         margin: 20px 20px 20px 20px;
