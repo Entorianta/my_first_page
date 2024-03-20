@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html> 
     <head>
-        <title>Entorianta - Personal Page</title>
+        <title>Elena Zhorina - Personal Page</title>
+        
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <meta charset="UTF-8">
-        <meta name="description" content="A brief description of the page's content.">
-        <meta name="keywords" content="your,keywords,here">
+        <meta name="description" content="This is my personal page with some of my recent watercolor works.">
+        <meta name="keywords" content="watercolor,painting,art,artwork">
+        
         <link rel="stylesheet" type="text/css" href="styles.css">
         <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="js/script.js"></script>
         
     </head>
 
@@ -18,7 +23,7 @@
             <!-- Start Header -->
             <header>
                 <div class="nav-wrapper">
-                    <div class="logo">
+                    <div id="logo" class="logo">
                         @ENTORIANTA
                     </div>
                     <nav id="top-nav">
@@ -49,7 +54,7 @@
 
                 <div class="title-wrapper">
                     <h1>ELENA ZHORINA</h1>
-                    <img src="Images\banner.jpg" alt="Banner Image" />
+                    <img src="Images/banner.jpg" alt="Banner Image" />
                 </div>
                 <div id="intro-wrapp-id" class="intro-wrapper">
                     <p>
@@ -72,21 +77,21 @@
                 </div>
                 <div class="my-projects">
                     <div class="project">
-                        <img src="Images\corn.jpeg" alt="Project 01 Image" />
+                        <img src="Images/corn.jpeg" alt="Project 01 Image" />
                         <p>PROJECT 01</p>
                         <a href="corn_page.html">
                             <button class="button3">LEARN MORE</button>
                         </a>
                     </div>
                     <div class="project">
-                        <img src="Images\sunflower.jpeg" alt="Project 02 Image" />
+                        <img src="Images/sunflower.jpeg" alt="Project 02 Image" />
                         <p>PROJECT 02</p>
                         <a href="sunflower_page.html">
                             <button class="button3">LEARN MORE</button>
                         </a>
                     </div>
                     <div class="project">
-                        <img src="Images\lotus.jpeg" alt="Project 03 Image" />
+                        <img src="Images/lotus.jpeg" alt="Project 03 Image" />
                         <p>PROJECT 03</p>
                         <a href="lotus_page.html">
                             <button class="button3">LEARN MORE</button>
@@ -148,23 +153,25 @@
                 <div class="contact-types">
                     <div class="get-in-touch">
                         <h2>GET IN TOUCH</h2>
+                        <form id="contact-form" action="/action_page.php">
                         <p>Your name</p>
-                        <form action="/action_page.php">
-                            <input type="text" id="name" name="name"><br><br>
+                            <input type="text" id="name" name="name" placeholder="Enter Your Full Name"><br><br>
                         <p>Email</p>
-                            <input type="text" id="email" name="email"><br><br>
+                            <input type="email" id="emailInput" name="email" placeholder="Enter Your Email"><br><br>
                             <input id="get-started" type="submit" value="GET STARTED">
                         </form>
+                        <br>
+                        <div id="errorMessage"></div>
                     </div>
                     <div id="social-media" class="social-media">
                         <a href="">
-                            <img src="Images\whatsapp.png" alt="Whatsapp"/>
+                            <img src="Images/whatsapp.png" alt="Whatsapp"/>
                         </a>
                         <a href="https://www.instagram.com/entorianta/">
-                            <img src="Images\instagram.png" alt="Instagram"/>
+                            <img src="Images/instagram.png" alt="Instagram"/>
                         </a>
                         <a href="">
-                            <img src="Images\telegram.png" alt="Telegram"/>
+                            <img src="Images/telegram.png" alt="Telegram"/>
                         </a>
                     </div>
                 </div>
