@@ -381,6 +381,8 @@ input {
     height: 50px;
     border-radius: 20px;
     margin: 10px 0 0 0;
+    padding: 0 15px 0 15px;
+    border: 2px solid #494A49;
 }
 
 #get-started {
@@ -394,7 +396,6 @@ input {
     height: 30px;
     border-radius: 20px;
     border: 1px solid #494A49;
-    border-color: #494A49;
     cursor: pointer;
 }
 
@@ -591,6 +592,8 @@ input {
         height: 50px;
         border-radius: 20px;
         margin: 10px 0 0 0;
+        padding: 0 15px 0 15px;
+        border: 2px solid #494A49;
     }
 
     .contact-types {
